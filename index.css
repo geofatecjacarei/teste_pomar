@@ -51,4 +51,30 @@
       font-family: 'Poppins', sans-serif;
       font-size: 7px ;
   }
-  
+     /* Estilo para telas maiores que 1024px */
+@media (min-width: 1024px) {
+    #map {
+        height: 100vh; /* Ocupa toda a altura da tela */
+    }
+}
+
+/* Estilo para telas menores que 768px */
+@media (max-width: 768px) {
+    #map {
+        height: 70vh; /* Reduz a altura do mapa para liberar espaço */
+    }
+
+    .ol-control {
+        padding: 4px; /* Controles com padding menor em telas menores */
+    }
+    
+    /* Ajustar a fonte e os controles */
+    .ol-control > * {
+        font-size: 14px; /* Diminuir tamanho da fonte */
+    }
+/*
+    @media (max-width: 600px) {
+        #popup {
+            display: none; /* Oculta o pop-up em telas muito pequenas 
+}*/
+    }
