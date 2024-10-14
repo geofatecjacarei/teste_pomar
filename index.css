@@ -58,14 +58,14 @@
   }
      /* Estilo para telas maiores que 1024px */
 @media (min-width: 1024px) {
-    #map {
+    #iframe {
         height: 100vh; /* Ocupa toda a altura da tela */
     }
 }
 
 /* Estilo para telas menores que 768px */
 @media (max-width: 768px) {
-    #map {
+    #iframe {
         height: 70vh; /* Reduz a altura do mapa para liberar espaço */
     }
 
